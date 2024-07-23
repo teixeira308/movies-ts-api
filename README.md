@@ -1,4 +1,4 @@
-# My Backend Project
+# Movies API - Backend Project
 
 This is a backend project developed with TypeScript, MongoDB, Morgan, Express, express-validator, Mongoose, and Winston.
 
