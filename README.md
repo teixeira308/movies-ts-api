@@ -18,12 +18,12 @@ Follow the instructions below to set up the development environment:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/teixeira308/movietsapi.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd your-repository
+    cd movietsapi
     ```
 
 3. Install the dependencies:
@@ -36,7 +36,8 @@ Follow the instructions below to set up the development environment:
 
     Example:
     ```env
-    MONGODB_URI=mongodb://localhost:27017/your-database
+    DB_USER=******
+    DB_PASS=*****
     ```
 
 5. Start the development server:
@@ -48,11 +49,9 @@ Follow the instructions below to set up the development environment:
 
 ### API Endpoints
 
-List the available API endpoints here.
+POST /v1/movie/
+GET /v1/movie/{{id}}
 
-### Example Requests
-
-Provide example requests using tools like curl or Postman.
 
 ## Logging
 
@@ -66,6 +65,3 @@ The project uses express-validator for validating incoming requests.
 
 If you would like to contribute, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License.
