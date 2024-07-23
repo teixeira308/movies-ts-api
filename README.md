@@ -49,11 +49,11 @@ Follow the instructions below to set up the development environment:
 
 ### API Endpoints
 
-POST /v1/movie/
-GET /v1/movie/
-GET /v1/movie/{{id}}
-DELETE /v1/movie/{{id}}
-PATCH  /v1/movie/{{id}}
+POST /v1/movie/ <br/>
+GET /v1/movie/ <br/>
+GET /v1/movie/{{id}} <br/>
+DELETE /v1/movie/{{id}} <br/>
+PATCH  /v1/movie/{{id}} <br/>
 
 ## Logging
 
